@@ -1,0 +1,73 @@
+/* colors for this project from Coolors:
+#e0f2e9 Alabaster
+#ceb5a7 Dark Vanilla
+#a17c6b Burnished Brown
+#5b7b7a Wintergreen Dream
+#37887e Celadon Green 
+#275751 Dark Slate Grey*/
+
+
+body{
+    color: #fff;
+    background-color: #37887e;
+}
+#gameBoard{
+    display: flex;
+    flex-direction: row;
+}
+#poleOne, #poleTwo, #poleThree{
+    height: 600px;
+    width: 300px;
+    background-image: url("/tower.jpeg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items */
+
+
+}
+.stick, .base{
+    background-color: #a17c6b;
+}
+.stick{
+    height: 300px;
+    width: 20px;
+    margin-left: 94px;
+    border: solid 1px #275751;
+    border-radius: 30% 30% 0 0;
+}
+
+.base{
+    width: 225px;
+    height: 50px;
+    border: solid 1px #275751;
+}
+#one, #two, #three, #four, #five, #six{
+    background-color: #e0f2e9;
+    border: solid 1px #275751;
+    border-radius: 10%/35%;
+}
+#one{
+    width: 50px;
+    height: 25px;
+}
+#two{
+    width: 75px;
+    height: 25px;
+}
+#three{
+    width: 100px;
+    height: 25px;
+}
+#four{
+    width: 125px;
+    height: 25px;
+}
+#five{
+    width: 150px;
+    height: 25px; 
+}
+#six{
+    width: 175px;
+    height: 25px;
+}
