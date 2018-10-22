@@ -26,6 +26,6 @@ let d4 = document.querySelector("#four");
 let d5 = document.querySelector("#five");
 let d6 = document.querySelector("#six")
 
-let p1 = document.querySelector("#p1")
-let p2 = document.querySelector("#p2")
-let p3 = document.querySelector("#p3")
+let p1 = document.querySelector("#poleOne")
+let p2 = document.querySelector("#poleTwo")
+let p3 = document.querySelector("#poleThree")

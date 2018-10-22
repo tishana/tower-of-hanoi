@@ -12,16 +12,25 @@ body{
     background-color: #37887e;
 }
 #gameBoard{
+    background-image: url("towers.png");
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    z-index: -1;
+    position: static;
     display: flex;
     flex-direction: row;
 }
 #poleOne, #poleTwo, #poleThree{
-    height: 600px;
-    width: 300px;
-    background-image: url("/tower.jpeg");
-    display: flex;
+    /* height: 400px; */
+    /* width: 300px; */
+    /* background-image: url("tower.png"); */
+    /* background-size: cover; */
+    /* z-index: -1; */
+    /* position: static; */
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     /* align-items */
 
 
@@ -46,28 +55,39 @@ body{
     background-color: #e0f2e9;
     border: solid 1px #275751;
     border-radius: 10%/35%;
+    z-index: 3;
 }
 #one{
     width: 50px;
     height: 25px;
+    /* margin-left: -600px; */
+    /* margin-top: 155px; */
 }
 #two{
     width: 75px;
     height: 25px;
+    /* margin-top: 180px; */
+
 }
 #three{
     width: 100px;
     height: 25px;
+    /* margin-top: 205px; */
 }
 #four{
     width: 125px;
     height: 25px;
+    /* margin-top: 230px; */
 }
 #five{
     width: 150px;
-    height: 25px; 
+    height: 25px;
+    /* margin-left: 60px; */
+    /* margin-top: 255px;  */
 }
 #six{
     width: 175px;
     height: 25px;
+    /* margin-top: 280px; */
+    /* margin-left: 45px; */
 }
