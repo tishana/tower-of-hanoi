@@ -6,7 +6,10 @@
 #37887e Celadon Green 
 #275751 Dark Slate Grey*/
 
-
+html{
+    display: flex;
+    align-items: center;
+}
 body{
     color: #fff;
     background-color: #37887e;
