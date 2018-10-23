@@ -20,20 +20,14 @@ body{
     position: static;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 #poleOne, #poleTwo, #poleThree{
-    /* height: 400px; */
-    /* width: 300px; */
-    /* background-image: url("tower.png"); */
-    /* background-size: cover; */
-    /* z-index: -1; */
-    /* position: static; */
-    /* display: flex;
+    height: 500px;
+    width: 450px;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
-    /* align-items */
-
-
+    justify-content: center; 
 }
 .stick, .base{
     background-color: #a17c6b;
