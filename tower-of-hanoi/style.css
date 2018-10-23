@@ -20,14 +20,16 @@ body{
     position: static;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    
 }
 #poleOne, #poleTwo, #poleThree{
     height: 500px;
     width: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: flex-end;
+    align-items: center; 
 }
 .stick, .base{
     background-color: #a17c6b;
@@ -52,35 +54,35 @@ body{
     z-index: 3;
 }
 #one{
-    width: 50px;
+    width: 75px;
     height: 25px;
     /* margin-left: -600px; */
     /* margin-top: 155px; */
 }
 #two{
-    width: 75px;
+    width: 100px;
     height: 25px;
     /* margin-top: 180px; */
 
 }
 #three{
-    width: 100px;
+    width: 125px;
     height: 25px;
     /* margin-top: 205px; */
 }
 #four{
-    width: 125px;
+    width: 150px;
     height: 25px;
     /* margin-top: 230px; */
 }
 #five{
-    width: 150px;
+    width: 175px;
     height: 25px;
     /* margin-left: 60px; */
     /* margin-top: 255px;  */
 }
 #six{
-    width: 175px;
+    width: 200px;
     height: 25px;
     /* margin-top: 280px; */
     /* margin-left: 45px; */
