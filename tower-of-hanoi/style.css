@@ -50,41 +50,41 @@ body{
     height: 50px;
     border: solid 1px #275751;
 }
-#one, #two, #three, #four, #five, #six{
+#a, #b, #c, #d, #e, #f{
     background-color: #e0f2e9;
     border: solid 1px #275751;
     border-radius: 10%/35%;
     z-index: 3;
 }
-#one{
+#a{
     width: 75px;
     height: 25px;
     /* margin-left: -600px; */
     /* margin-top: 155px; */
 }
-#two{
+#b{
     width: 100px;
     height: 25px;
     /* margin-top: 180px; */
 
 }
-#three{
+#c{
     width: 125px;
     height: 25px;
     /* margin-top: 205px; */
 }
-#four{
+#d{
     width: 150px;
     height: 25px;
     /* margin-top: 230px; */
 }
-#five{
+#e{
     width: 175px;
     height: 25px;
     /* margin-left: 60px; */
     /* margin-top: 255px;  */
 }
-#six{
+#f{
     width: 200px;
     height: 25px;
     /* margin-top: 280px; */
