@@ -1,36 +1,25 @@
-# tower-of-hanoi
-/*
-create variables for all elements:
-all 3 poles
-all disks
+Tower of Hanoi Game
 
-all poles can have a maximum of 6 disks, minimum of 0.
+From Wikipedia (https://en.wikipedia.org/wiki/Tower_of_Hanoi): 
+*** "The Tower of Hanoi (also called the Tower of Brahma or Lucas' Tower[1] and sometimes pluralized) is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod. The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape.
 
-all disks on poles must stack in size order, smallest on top, largest on bottom
+The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules:
 
-move selected disk to selected pole:
-<select disk>
-user clicks disk
-<select new pole>
-user clicks pole where disk will go
-<move disk to pole>
-if there is no disk on selected pole, disk appears on pole
-if selected disk is larger than disk on selected pole(check the width attribute of both), alert "Nope, can't do that!"
+Only one disk can be moved at a time.
+Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack or on an empty rod.
+No disk may be placed on top of a smaller disk."***
 
-when all disks are present on third pole, player wins, (alert "You win!")
-
-*/
-
-/*
 Game Functions:
 
-When a tower (sending div) is clicked, browser waits for a second click on a new tower(receiving div).
+When a tower (sending tower) is clicked, the topmost disk is selected, and it turns red.
 
-If there is a disk (moving disk) in receiving div, it is compared to the topmost disk from the sending div. 
+If there is a disk (moving disk) in receiving tower, it is compared to the topmost disk from the sending tower. 
 
-If moving disk is larger than the topmost disk in the receiving div, a move IS NOT allowed.
+If moving disk is larger than the topmost disk in the receiving tower, a move IS NOT allowed, and an alert is sent.
 
-If moving disk is smaller than the topmost disk, a move IS allowed.
+If moving disk is smaller than the topmost disk, a move IS allowed, the moving disk is moved to the new tower, and it's color returns to white.
 
-Reset button places all disks in first div.
+When all disks are moved to the rightmost tower, the player wins!
+
+Reset button places all disks in first tower.
 */
