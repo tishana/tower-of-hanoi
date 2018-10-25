@@ -20,6 +20,7 @@ If moving disk is smaller than the topmost disk, a move IS allowed, the moving d
 When all disks are moved to the rightmost tower, the player wins!
 
 Reset button places all disks in first tower.
+
 --------------------------------------------
 User Stories
 I can select a disk to move by clicking on its tower.
@@ -28,11 +29,14 @@ I can move a disk to a new tower (within game rules) by clicking on the new towe
 I can be alerted when I am making an illegal move.
 I can be alerted when I have won the game.
 I can reset the game by clicking the reset button.
+
 --------------------------------------------
+
 Built With:
 HTML
 CSS
 Javascript
+
 --------------------------------------------
 
 How I built this game:
@@ -48,7 +52,9 @@ The game was coming together, but I needed the logic to follow the game rules. I
 Lastly, I tried to make the code as dry as I possibly could, making reusable functions and calling them within the event listeners for each button. 
 
 All in all, this project was the most challening thing I've done! Also, looking back on the homework and labs, everything makes so much more sense... Go figure...
+
 --------------------------------------------
+
 Acknowledgements
 
 I'd like to thank our instructors, Hector Guevara and Don McLamb for challenging me to find the solutions on my own, and helping me "keep my problems small".
