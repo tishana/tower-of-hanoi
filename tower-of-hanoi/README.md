@@ -42,7 +42,7 @@ Javascript
 
 How I built this game:
 
-First, I sketched onto paper how I wanted the game to appear in the browser. I also created user stories for the game, and made note of the rules. Once I began to code this project, I built out divs for each component of my game: disks, towers, the gameboard. I used Coolors (https://coolors.co/app)to get a color scheme for my project (All colors are noted in the css file), opting to use softer colors for all components, and keeping the brighter color to highlight the chosen disk.
+First, I sketched onto paper how I wanted the game to appear in the browser. I also created user stories for the game, and made note of the rules. Once I began to code this project, I built out divs for each component of my game: disks, towers, the gameboard. I used Coolors (https://coolors.co/app) to get a color scheme for my project (All colors are noted in the css file), opting to use softer colors for all components, and keeping the brighter color to highlight the chosen disk.
 
 I was frustrated by how the disks wouldn't stack over the towers visually. The disk divs offset the tower, making the make the game look weird. So I decided to take a screen shot of the three tower images I built in HTML/CSS (without the disks) and use that screen shot as a background image for the game. I used Flexbox to make the three tower divs align with the three towers in the image. I also used flex to keep the disks centered and sticky to the bottom of the tower divs.
 
