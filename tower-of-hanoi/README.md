@@ -22,7 +22,8 @@ When all disks are moved to the rightmost tower, the player wins!
 Reset button places all disks in first tower.
 
 --------------------------------------------
-User Stories
+User Stories:
+
 I can select a disk to move by clicking on its tower.
 I can deselect a disk my clicking on its tower after I have selected the disk.
 I can move a disk to a new tower (within game rules) by clicking on the new tower.
