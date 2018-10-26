@@ -24,17 +24,17 @@ Reset button places all disks in first tower.
 --------------------------------------------
 ## User Stories:
 
-*I can select a disk to move by clicking on its tower.
+- I can select a disk to move by clicking on its tower.
 
-..*I can deselect a disk my clicking on its tower after I have selected the disk.
+- I can deselect a disk my clicking on its tower after I have selected the disk.
 
-..*I can move a disk to a new tower (within game rules) by clicking on the new tower.
+- I can move a disk to a new tower (within game rules) by clicking on the new tower.
 
-..*I can be alerted when I am making an illegal move.
+- I can be alerted when I am making an illegal move.
 
-..*I can be alerted when I have won the game.
+- I can be alerted when I have won the game.
 
-..*I can reset the game by clicking the reset button.
+- I can reset the game by clicking the reset button.
 
 
 --------------------------------------------
