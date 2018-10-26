@@ -6,10 +6,13 @@ It is my version of the Tower of Hanoi game.
 
 More information about the origins of the game: https://en.wikipedia.org/wiki/Tower_of_Hanoi 
 
+<img src="https://imgur.com/wT9iBWn" alt="Three towers, one with 4 disks on it">
+
 --------------------------------------------
 ## Game Functions:
 
 When a tower (**sending tower**) is clicked, the topmost disk is selected, and it turns red.
+<img src="https://imgur.com/h9PrJKm" alt="A red disc in play">
 
 If there is a disk (**moving disk**) in receiving tower, it is compared to the topmost disk from the sending tower. 
 
@@ -45,9 +48,11 @@ Reset button places all disks in first tower.
 
 2. CSS to style the towers and disks
 
-3. Coolors  https://coolors.co/app  for the basic color scheme
+3. Javascript for the game structure and logic
 
-4. Javascript for the game structure and logic
+4. Coolors  https://coolors.co/app  for the basic color scheme
+
+<img src="https://imgur.com/Vc5Rc2D" alt = "Soft shades of green and brown"
 
 
 --------------------------------------------
@@ -56,7 +61,11 @@ Reset button places all disks in first tower.
 
 First, I sketched onto paper how I wanted the game to appear in the browser. I also created user stories for the game, and made note of the rules. Once I began to code this project, I built out divs for each component of my game: disks, towers, the gameboard. I used Coolors to get a color scheme for my project (All colors are noted in the css file), opting to use softer colors for all components, and keeping the brighter color to highlight the chosen disk.
 
-I was _frustrated_ by how the disks wouldn't stack over the towers visually. The disk divs offset the tower, making the make the game look weird. So I decided to take a screen shot of the three tower images I built in HTML/CSS (without the disks) and use that screen shot as a background image for the game. I used Flexbox to make the three tower divs align with the three towers in the image. I also used flex to keep the disks centered and sticky to the bottom of the tower divs.
+I was _frustrated_ by how the disks wouldn't stack over the towers visually. The disk divs offset the tower, making the make the game look weird. So I decided to take a screen shot of the three tower images I built in HTML/CSS (without the disks) and use that screen shot as a background image for the game. 
+
+<img src="https://imgur.com/SbbHud2" alt="Three towers">
+
+I used Flexbox to make the three tower divs align with the three towers in the image. I also used flex to keep the disks centered and sticky to the bottom of the tower divs.
 
 Next came functionality. I knew I needed **the most basic function**, to make the disks move from one tower to another. So I assigned a variable to each tower div and to each disk. My original thought was to add a disk based on the id, but I was having difficulty targeting the disk in the DOM. When that failed, I opted to make a disk move to the next tower when the tower was clicked using addEventListener. I set a variable for the chosen disk, then added it to the next tower. This worked, but I was using the appendChild method and the disks were being added to the bottom, not the top. I used the insertBefore method to get the disk to the top. However, if a tower was empty, there was nothing to use the insertBefore method for, and I used the appendChild method for those cases. I was then able to move any disk to any tower by clicking the tower. **Success**
 
