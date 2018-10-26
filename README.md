@@ -78,6 +78,20 @@ All in all, this project was the most challening thing I've done! Also, looking 
 
 --------------------------------------------
 
+## Future Versions
+
+In the near future, as I learn more in this course, I would like to add the following enhancements:
+
+* Allow users to choose a skill level 
+⋅⋅* Training (3 disks)
+⋅⋅* Easy (4 disks)
+⋅⋅* Medium (5 disks)
+⋅⋅* Hard (6 disks)
+⋅⋅* Master (7 disks)
+* Scoring, based on calculation of minimum moves
+* Time based play
+* Allow different background images from a list
+
 ## Acknowledgements:
 
 I'd like to thank our instructors, Hector Guevara and Don McLamb for challenging me to find the solutions on my own, and helping me "keep my problems small".
