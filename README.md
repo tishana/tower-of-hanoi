@@ -1,4 +1,5 @@
-Tower of Hanoi Game/ Project 1
+# Tower of Hanoi Game/ Project 1
+
 
 This game is my first project in the Web Development Immersive Program at General Assembly.
 It is my version of the Tower of Hanoi game.
