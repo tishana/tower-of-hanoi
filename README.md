@@ -6,7 +6,7 @@ It is my version of the Tower of Hanoi game.
 
 More information about the origins of the game: https://en.wikipedia.org/wiki/Tower_of_Hanoi 
 
-[Three towers, one with 4 disks on it](https://i.imgur.com/wT9iBWn.png)
+![Three towers, one with 4 disks on it](https://i.imgur.com/wT9iBWn.png)
 
 --------------------------------------------
 ## Game Functions:
