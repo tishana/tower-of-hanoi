@@ -12,7 +12,8 @@ More information about the origins of the game: https://en.wikipedia.org/wiki/To
 ## Game Functions:
 
 When a tower (**sending tower**) is clicked, the topmost disk is selected, and it turns red.
-[A red disk in play on a tower](https://i.imgur.com/h9PrJKm.png)
+
+![A red disk in play on a tower](https://i.imgur.com/h9PrJKm.png)
 
 If there is a disk (**moving disk**) in receiving tower, it is compared to the topmost disk from the sending tower. 
 
@@ -52,7 +53,7 @@ Reset button places all disks in first tower.
 
 4. Coolors  https://coolors.co/app  for the basic color scheme
 
-[Soft shades of green and brown](https://i.imgur.com/Vc5Rc2D.png)
+![Soft shades of green and brown](https://i.imgur.com/Vc5Rc2D.png)
 
 
 --------------------------------------------
@@ -63,7 +64,7 @@ First, I sketched onto paper how I wanted the game to appear in the browser. I a
 
 I was _frustrated_ by how the disks wouldn't stack over the towers visually. The disk divs offset the tower, making the make the game look weird. So I decided to take a screen shot of the three tower images I built in HTML/CSS (without the disks) and use that screen shot as a background image for the game. 
 
-[Three towers for the game](https://i.imgur.com/SbbHud2.png)
+![Three towers for the game](https://i.imgur.com/SbbHud2.png)
 
 I used Flexbox to make the three tower divs align with the three towers in the image. I also used flex to keep the disks centered and sticky to the bottom of the tower divs.
 
