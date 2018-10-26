@@ -6,7 +6,7 @@ It is my version of the Tower of Hanoi game.
 
 More information about the origins of the game: https://en.wikipedia.org/wiki/Tower_of_Hanoi 
 
-![alt text](https://github.com/tishana/tower-of-hanoi/tree/gh-pages/TOHGameboard.png "My Tower of Hanoi game!")
+!["My Tower of Hanoi game!"](https://github.com/tishana/tower-of-hanoi/tree/gh-pages/TOHGameboard.png)
 
 --------------------------------------------
 ## Game Functions:
