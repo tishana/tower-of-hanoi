@@ -24,27 +24,41 @@ Reset button places all disks in first tower.
 --------------------------------------------
 User Stories:
 
-I can select a disk to move by clicking on its tower.
-I can deselect a disk my clicking on its tower after I have selected the disk.
-I can move a disk to a new tower (within game rules) by clicking on the new tower.
-I can be alerted when I am making an illegal move.
-I can be alerted when I have won the game.
-I can reset the game by clicking the reset button.
+*I can select a disk to move by clicking on its tower.
+
+*I can deselect a disk my clicking on its tower after I have selected the disk.
+
+*I can move a disk to a new tower (within game rules) by clicking on the new tower.
+
+*I can be alerted when I am making an illegal move.
+
+*I can be alerted when I have won the game.
+
+*I can reset the game by clicking the reset button.
+
 
 --------------------------------------------
 
 Built With:
-HTML
-CSS
-Javascript
+
+HTML for the basic structure of the webpage
+
+CSS to style the towers and disks
+
+Coolors  https://coolors.co/app  for the basic color scheme
+
+Javascript for the game structure and logic
+
 
 --------------------------------------------
 
 How I built this game:
 
-First, I sketched onto paper how I wanted the game to appear in the browser. I also created user stories for the game, and made note of the rules. Once I began to code this project, I built out divs for each component of my game: disks, towers, the gameboard. I used Coolors (https://coolors.co/app)to get a color scheme for my project (All colors are noted in the css file), opting to use softer colors for all components, and keeping the brighter color to highlight the chosen disk.
+First, I sketched onto paper how I wanted the game to appear in the browser. I also created user stories for the game, and made note of the rules. Once I began to code this project, I built out divs for each component of my game: disks, towers, the gameboard. I used Coolors to get a color scheme for my project (All colors are noted in the css file), opting to use softer colors for all components, and keeping the brighter color to highlight the chosen disk.
 
 I was frustrated by how the disks wouldn't stack over the towers visually. The disk divs offset the tower, making the make the game look weird. So I decided to take a screen shot of the three tower images I built in HTML/CSS (without the disks) and use that screen shot as a background image for the game. I used Flexbox to make the three tower divs align with the three towers in the image. I also used flex to keep the disks centered and sticky to the bottom of the tower divs.
+
+
 
 Next came functionality. I knew I needed the most basic function, to make the disks move from one tower to another. So I assigned a variable to each tower div and to each disk. My original thought was to add a disk based on the id, but I was having difficulty targeting the disk in the DOM. When that failed, I opted to make a disk move to the next tower when the tower was clicked using addEventListener. I set a variable for the chosen disk, then added it to the next tower. This worked, but I was using the appendChild method and the disks were being added to the bottom, not the top. I used the insertBefore method to get the disk to the top. However, if a tower was empty, there was nothing to he insertBefore method, and I used the appendChild method for those cases. I was then able to move any disk to any tower by clicking the tower.
 
