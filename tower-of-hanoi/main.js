@@ -58,7 +58,7 @@ p1.addEventListener('click', function () {
         moveDisk(p1)
         checkGame()
     } else {
-        alert("Nah, son...")
+        alert("That move is illegal... Try again.")
     }
 })
 
@@ -73,7 +73,7 @@ p2.addEventListener('click', function () {
         moveDisk(p2)
         checkGame()
     } else {
-        alert("Nah, son...")
+        alert("That move is illegal... Try again.")
     }
 })
 
@@ -88,6 +88,6 @@ p3.addEventListener('click', function () {
         moveDisk(p3)
         checkGame()
     } else {
-        alert("Nah, son...")
+        alert("That move is illegal... Try again.")
     }
 })
