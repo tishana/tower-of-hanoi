@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Towers of Hanoi Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div id="intro">
+            <h1>Towers of Hanoi</h1>
+            <h4>by Tishana Trainor</h4>
+            <p>Try to move all of the discs to the last pole.</p>
+            <p>There's only one rule... You can't place a larger disc atop a smaller disk.</p>
+            <p>Enjoy!</p>
+            <button class="reset btn btn-secondary">r e s e t</button>
+        </div>
+
+    </header>
+    <div id="gameBoard">
+        <!-- POLES -->
+        <div id="poleOne">
+            <!-- DISKS -->
+            <div class="disk" id="a"></div>
+            <div class="disk" id="b"></div>
+            <div class="disk" id="c"></div>
+            <div class="disk" id="d"></div>
+            <!-- <div class="disk" id="e"></div> -->
+            <!-- <div class="disk" id="f"></div> -->
+        </div>
+        <div id="poleTwo"></div>
+        <div id="poleThree"></div>
+    </div>
+
+    <div id="about">
+        <h3>About Tower of Hanoi...</h3>
+        <p>Tower of Hanoi is a game of classic puzzle said to be created by French mathematician Edouard Lucas.</p>
+        <p>According to <a class="link" href="https://en.wikipedia.org/wiki/Tower_of_Hanoi" target="_blank">Wikipedia</a>,
+            the game
+            based on a legend of a Hindu temple where the puzzle is played by young priests.</p>
+
+        <br>
+        <h3>About Me</h3>
+        <p>I am Tishana, a fullstack web developer in the DC Metro Area. This is my very first web application and was
+            built using HTML, CSS, and plain Javascript.</p>
+        <p>I've since created more applications using other web technologies. You can view more of my work <a class="link"
+                href="https://tishana.github.io/" target="_blank">here</a>. Thanks for playing, and please feel free to
+            share this game with others.</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
