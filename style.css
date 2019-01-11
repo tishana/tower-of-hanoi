@@ -9,10 +9,17 @@
 html{
     display: flex;
     align-items: center;
+    font-family: 'Miriam Libre', sans-serif;
 }
 body{
     color: #fff;
     background-color: #37887e;
+}
+.p{
+    font-size: 0.7rem 
+}
+.link{
+    color: antiquewhite;
 }
 #gameBoard{
     background-image: url("towers.png");
@@ -80,4 +87,12 @@ body{
 #f{
     width: 200px;
     height: 25px;
+}
+#about{
+    margin: 40px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
