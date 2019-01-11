@@ -18,6 +18,9 @@ body{
 .p{
     font-size: 0.7rem 
 }
+.link{
+    color: antiquewhite;
+}
 #gameBoard{
     background-image: url("towers.png");
     background-size: cover;
